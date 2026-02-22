@@ -22,7 +22,7 @@ import cv2
 parser = get_parser()
 args = parser.parse_args()
 
-data_root = "/horizon-bucket/saturn_v_dev/01_users/fu.rong/RefSegRS"
+data_root = "./your_data/RefSegRS"
 
 def build_rsris_batches(setname):
     im_dir1 = f'{data_root}/images/'
